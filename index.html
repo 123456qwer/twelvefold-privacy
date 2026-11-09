@@ -108,7 +108,7 @@
     <header>
       <p class="brand">Twelvefold / 十二庭</p>
       <h1>隐私政策 <span lang="en">/ Privacy Policy</span></h1>
-      <p class="meta">生效及更新日期 / Effective and last updated: <time datetime="2026-11-05">2026-11-05</time></p>
+      <p class="meta">生效及更新日期 / Effective and last updated: <time datetime="2026-11-09">2026-11-09</time></p>
       <p class="meta">开发者 / Developer: player_wd · GitHub: 123456qwer</p>
       <nav class="language-nav" aria-label="语言 / Language">
         <a href="#zh-cn" lang="zh-CN">中文</a>
@@ -134,19 +134,23 @@
 
       <h3>3. Apple 内购与购买权限</h3>
       <p>在启用内购功能的版本中，购买及恢复购买由 Apple StoreKit 处理。游戏会读取商品信息、Apple 已验证的购买状态和交易标识，以解锁或恢复内容，并可在本地保存加密的购买权限缓存。游戏不会获取或存储你的付款卡信息或 Apple 账户密码。</p>
+      <p>购买数据源时，游戏会将随机生成的存档标识随购买请求提供给 Apple，并在本机保存交易标识和余额。游戏用这些记录把数据源发放到发起购买的存档，避免重复发放。</p>
       <p>购买缓存可使用平台提供的本机设备标识派生加密密钥。该标识仅在设备本地使用，不上传到开发者服务器，也不用于广告或跨应用跟踪。普通存档和偏好文件不因此被视为全部加密。</p>
       <p>购买、恢复及商店验证可能需要联网。未启用内购的版本可能不执行上述商店连接和购买缓存处理。</p>
 
       <h3>4. 数据共享与广告</h3>
       <p>我们不会出售你的个人信息，也不会将其提供给广告商或用于广告定向。游戏没有自行向开发者发送游玩遥测的功能。Apple 平台服务、本页的 GitHub 托管，以及你主动发送的支持邮件，分别按下文所述处理。</p>
 
-      <h3>5. Apple 平台服务、诊断与反馈</h3>
+      <h3>5. Game Center、诊断与反馈</h3>
+      <p>支持 Game Center 的版本会在启动时检查设备是否已登录 Game Center。登录是可选的。你可以在系统设置中登录，也可以打开游戏内的榜单或成就面板后按 Apple 提示登录。登录后，游戏会通过 Apple GameKit 提交符合条件的最终战用时和已解锁的成就。全球榜单可向其他 Game Center 玩家显示你的成绩、昵称和头像。成就进度的可见范围由你的 Game Center 活动分享设置决定。</p>
+      <p>游戏会在设备上保存最快用时、等待同步和已同步的成绩与成就记录，以及用于区分账号的散列玩家标识。离线记录可以在下次连接时补传。尚未关联账号的记录会在首次登录时关联到该账号。</p>
+      <p>你可以在 iPhone、iPad 的「设置」或 Mac 的「系统设置」中管理 Game Center 活动分享或退出登录。退出登录会暂停后续同步。Apple 管理已提交的数据，详情见 <a href="https://www.apple.com/legal/privacy/data/zh-cn/game-center/">Game Center 与隐私</a>。</p>
       <p>Apple 可在 App Store、TestFlight 和操作系统服务中处理购买、崩溃或性能诊断，以及你主动提交的测试反馈。根据平台功能和你的设置，Apple 也可能向开发者提供相关报告或反馈。这些处理由 Apple 的政策及平台设置管理，不等同于游戏内置第三方跟踪。</p>
       <p>详情见 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>。</p>
 
       <h3>6. 本地数据、备份与删除</h3>
       <p>游戏没有自己的云存档或开发者云同步服务。操作系统、设备迁移或你选择的备份服务可能保存本地应用数据的副本，具体取决于平台及你的设置。</p>
-      <p>本地数据在保留于设备期间用于继续游戏和记住设置。你可在游戏内重新开始并确认覆盖相应存档；这只重置该存档，不会删除全部偏好、缓存或 Apple 购买记录。其他本地数据可通过平台支持的清除应用数据或卸载方式处理，实际删除效果及备份保留取决于平台。删除本地文件不会删除 Apple 持有的交易记录。</p>
+      <p>本地数据在保留于设备期间用于继续游戏、记住设置和同步成绩。你可在游戏内重新开始并确认覆盖相应存档；这只重置该存档，不会删除全部偏好或缓存。其他本地数据可通过平台支持的清除应用数据或卸载方式处理，实际删除效果及备份保留取决于平台。Apple 持有的交易和 Game Center 记录由 Apple 管理。</p>
 
       <h3>7. 主动联系、保留与数据请求</h3>
       <p>如果你通过邮件联系我们，我们会收到你的邮箱地址、邮件内容及你选择附加的信息。我们仅将这些信息用于回复、排查问题、后续沟通和处理隐私请求，并在完成这些用途及履行适用义务所必要的期限内保留；不再需要时删除或去除可识别信息。</p>
@@ -160,7 +164,7 @@
       <p>详情见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 一般隐私声明</a>。</p>
 
       <h3>10. 政策更新</h3>
-      <p>如果数据处理方式发生变化，我们会在本页公布更新并修改生效日期。更新后的政策自标注的生效日期起适用。本次生效及更新日期为 2026-11-05。</p>
+      <p>如果数据处理方式发生变化，我们会在本页公布更新并修改生效日期。更新后的政策自标注的生效日期起适用。本次生效及更新日期为 2026-11-09。</p>
 
       <div class="contact">
         <h3>11. 联系我们</h3>
@@ -186,19 +190,23 @@
 
       <h3>3. Apple purchases and access</h3>
       <p>In versions where in-app purchases are enabled, Apple StoreKit handles purchases and restoration. The app reads product information, Apple-verified purchase status, and transaction identifiers to unlock or restore content. It may store an encrypted entitlement cache locally. The app does not receive or store your payment-card information or Apple Account password.</p>
+      <p>When you buy Origin Data, the app sends a randomly generated save identifier to Apple with the purchase request. The app stores transaction identifiers and your balance on the device to credit the save that initiated the purchase and prevent duplicate delivery.</p>
       <p>A platform-provided device identifier may be used locally to derive the purchase cache's encryption key. It is not uploaded to developer-operated servers or used for advertising or cross-app tracking. This does not mean that ordinary save and preference files are all encrypted.</p>
       <p>Purchases, restoration, and store verification may require an internet connection. Versions without enabled purchases may not perform this store connection or purchase-cache processing.</p>
 
       <h3>4. Sharing and advertising</h3>
       <p>We do not sell your personal information or provide it to advertisers or use it for targeted advertising. The game does not independently send gameplay telemetry to the developer. Apple platform services, GitHub hosting for this page, and support emails you choose to send are handled separately as described below.</p>
 
-      <h3>5. Apple services, diagnostics, and feedback</h3>
+      <h3>5. Game Center, diagnostics, and feedback</h3>
+      <p>Versions that support Game Center check whether your device is signed in to Game Center at startup. Signing in is optional. You can sign in through system settings or follow Apple's sign-in prompt when you open the in-game leaderboard or achievements panel. While signed in, the app uses Apple GameKit to report eligible Final Battle times and achievement unlocks. Other Game Center players can see your score, nickname, and avatar on the global leaderboard. Your Game Center activity sharing settings control who can see your achievement progress.</p>
+      <p>The app stores your best time, pending and synced scores and achievements, and a hashed player identifier on your device to keep records separate by account. Records earned offline may sync after you reconnect. Records without an associated account are linked to the first account you sign in with.</p>
+      <p>Use Settings on iPhone or iPad, or System Settings on Mac, to manage Game Center activity sharing or sign out. Signing out pauses further syncing. Apple manages previously submitted data. See <a href="https://www.apple.com/legal/privacy/data/en/game-center/">Game Center &amp; Privacy</a>.</p>
       <p>Apple may process purchases, crash or performance diagnostics, and feedback you choose to submit through the App Store, TestFlight, or operating-system services. Depending on platform features and your settings, Apple may also provide related reports or feedback to the developer. Apple's policies and platform settings govern this processing; it is separate from third-party tracking within the game.</p>
       <p>See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
 
       <h3>6. Local data, backups, and deletion</h3>
       <p>The game does not operate its own cloud-save or developer cloud-sync service. Your operating system, device migration, or backup services you choose may retain copies of local app data, depending on the platform and your settings.</p>
-      <p>Local data supports continued play and remembered settings while it remains on your device. Starting a new game and confirming that a save is overwritten resets that save only; it does not delete all preferences, caches, or Apple purchase records. Other local data can be managed through platform-supported app-data removal or uninstallation. The actual deletion and retention of backups depend on the platform. Removing local files does not delete transaction records held by Apple.</p>
+      <p>Local data supports continued play, remembered settings, and score syncing while it remains on your device. Starting a new game and confirming that a save is overwritten resets that save only. You can manage other local data through platform-supported app-data removal or uninstallation. The actual deletion and retention of backups depend on the platform. Apple manages the transaction and Game Center records it holds.</p>
 
       <h3>7. Support, retention, and data requests</h3>
       <p>If you email us, we receive your email address, message, and any information you choose to attach. We use this information only to reply, investigate issues, follow up, and handle privacy requests. We retain it for as long as needed for those purposes and applicable obligations, then delete it or remove identifying information when it is no longer needed.</p>
@@ -212,7 +220,7 @@
       <p>See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.</p>
 
       <h3>10. Policy updates</h3>
-      <p>If our data practices change, we will publish an update here and revise the effective date. An updated policy applies from its stated effective date. This policy is effective and was last updated on November 5, 2026.</p>
+      <p>If our data practices change, we will publish an update here and revise the effective date. An updated policy applies from its stated effective date. This policy is effective and was last updated on November 9, 2026.</p>
 
       <div class="contact">
         <h3>11. Contact</h3>
@@ -221,7 +229,7 @@
     </section>
 
     <footer>
-      <p>Twelvefold / 十二庭 · player_wd · 2026-11-05</p>
+      <p>Twelvefold / 十二庭 · player_wd · 2026-11-09</p>
     </footer>
   </main>
 </body>
